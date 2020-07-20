@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarcastic Dictionary</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css"
+      integrity="sha512-ADrqa2PY1TZtb/MoLZIZu/Z/LlPaWQeDMBV73EMwjGam43/JJ5fqW38Rq8LJOVGCDfrJeOMS3Q/wRUVzW5DkjQ=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="hero blueish-gradient is-bold is-fullheight">
+      <div class="hero-body centered">
+        <div class="card rounded">
+          <p class="card-header-title has-text-centered centered is-size-3 mt-3">
+            Sarcastic Dictionary
+          </p>
+          <div class="card-content">
+            <div class="content">
+              <form class="field has-addons">
+                <div class="control">
+                  <input
+                    class="input is-success is-rounded is-medum"
+                    type="text"
+                    placeholder="Search word..."
+                  />
+                </div>
+                <div class="control">
+                  <button type="submit" class="button is-rounded is-success is-medum">
+                    Search
+                  </button>
+                </div>
+              </form>
+              <div class="centered">
+                <div class="box rounded mt-4 is-hidden"></div>
+              </div>
+            </div>
+          </div>
+          <div class="credits">
+            Powered by
+            <a href="https://urbandictionary.com" target="_blank">Urban dictionary</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
